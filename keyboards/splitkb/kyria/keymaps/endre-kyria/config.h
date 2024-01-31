@@ -35,3 +35,4 @@
 #    endif
 #endif
 
+#define IS_COMMAND() (get_mods() == MOD_MASK_SHIFT)
